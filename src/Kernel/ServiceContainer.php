@@ -67,6 +67,8 @@ class ServiceContainer extends Container
             'http' => [
                 'timeout' => 30.0,
                 'base_uri' => 'https://api.jd.com/routerjson',
+                'http_errors' => false,
+                'verify' => false
             ],
         ];
 
